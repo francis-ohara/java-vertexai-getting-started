@@ -13,8 +13,8 @@ import java.io.IOException;
  * Main class to run the application.
  */
 public class Main {
-    private static final String PROJECT_ID = "model-garden-fishfooding";
-    private static final String LOCATION = "us-central1";
+    private static final String PROJECT_ID = "";
+    private static final String LOCATION = "";
 
     public static void main(String[] args) throws IOException {
         try (VertexAI vertexAI = new VertexAI(PROJECT_ID, LOCATION);) {
