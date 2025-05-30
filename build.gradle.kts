@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("application")
 }
 
 group = "org.example"
@@ -13,6 +14,10 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation("com.google.cloud:google-cloud-vertexai:1.23.0")
+}
+
+application {
+    mainClass = "org.example.Main"
 }
 
 tasks.test {
