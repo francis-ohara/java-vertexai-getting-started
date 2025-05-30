@@ -42,7 +42,7 @@ java-vertexai-getting-started
 ```
 
 ## Usage
-```./gradelw run```
+```./gradlew run```
 
 ## Example Output
 ![Screenshot of Example Output](docs/images/example_output.png)
